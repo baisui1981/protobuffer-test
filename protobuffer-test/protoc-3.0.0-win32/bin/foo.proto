@@ -1,0 +1,12 @@
+
+
+syntax = "proto3";
+
+package google.protobuf;
+
+
+message Foo {
+  map<string, string> values = 1;
+ 
+}
+
